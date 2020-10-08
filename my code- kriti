@@ -1,0 +1,21 @@
+//enter 5 digit no. =sum of digit
+#include<stdio.h>
+main()
+{   
+    int a1,a2,a3,a,b,c,d,e,sum,n;
+	printf("enter the five digit no.");
+	scanf("%d",&n);//54321
+    a=n%10;//1
+    a1=n/10;//5432
+    b=a1%10;//2
+    a2=a1/10;//543
+    c=a2%10;//3
+    a3=a2/10;//54
+    d=a3%10;//4
+    e=a3/10;//5
+    sum=a+b+c+d+e;
+    printf("sum of digits =%d ",sum);
+    
+
+}
+
